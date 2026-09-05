@@ -1,4 +1,4 @@
-name: Update latest Velog posts
+name: Update latest Tistory posts
 
 on:
   schedule:
@@ -15,5 +15,5 @@ jobs:
       - uses: actions/checkout@v4
       - uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          feed_list: "https://v2.velog.io/rss/arbitrate"
+          feed_list: "https://junghwancho.tistory.com/rss"
           max_post_count: 3
