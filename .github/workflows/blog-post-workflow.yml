@@ -17,3 +17,4 @@ jobs:
         with:
           feed_list: "https://junghwancho.tistory.com/rss"
           max_post_count: 3
+          accept_header: "application/rss+xml, application/xml, text/xml, */*"
